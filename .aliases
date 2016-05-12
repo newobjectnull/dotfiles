@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+alias reti="cd ~/Dropbox/Unipd/Semestre2/Reti/"
+alias embedded="cd ~/Dropbox/Unipd/Semestre2/Embedded/"
+alias retissh="ssh fontanad@88.80.187.84"
+alias retisshcp='function _sshreti(){ scp "$1" fontanad@88.80.187.84:~/upload; }; _sshreti '
